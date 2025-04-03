@@ -1,0 +1,15 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd  http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+	http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+  <flow name="health">
+    <http:listener config-ref="Listener-config" doc:id="qvvwaj" doc:name="/health" path="health"></http:listener>
+    <ee:transform doc:name="OK" doc:id="jzcapx" >
+      <ee:message >
+        <ee:set-payload doc:name="Set payload" doc:id="yunpsb" ><![CDATA[%dw 2.0
+    output text/plain
+    ---
+    "OK"]]></ee:set-payload>
+      </ee:message>
+    </ee:transform>
+  </flow>
+</mule>

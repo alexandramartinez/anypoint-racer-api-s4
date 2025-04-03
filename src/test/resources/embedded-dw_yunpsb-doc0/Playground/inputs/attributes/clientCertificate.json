@@ -1,0 +1,73 @@
+{
+  "basicConstraints": 70,
+  "criticalExtensionOIDs": [
+    "eget",
+    "sodales"
+  ],
+  "extendedKeyUsage": [
+    "semper",
+    "ac",
+    "dictum"
+  ],
+  "extensions": [
+    {
+      "criticality": true,
+      "oid": "dui"
+    }
+  ],
+  "issuerAlternativeNames": [
+    {
+      "name": "Aisha",
+      "type": 69
+    }
+  ],
+  "issuerDN": {
+    "commonName": "tincidunt",
+    "name": "Cleveland"
+  },
+  "issuerUniqueID": [
+    true,
+    false,
+    true
+  ],
+  "issuerX500Principal": {
+    "name": "Clinton"
+  },
+  "keyUsage": [
+    true,
+    true
+  ],
+  "name": "Dane",
+  "nonCriticalExtensionOIDs": [
+    "Nam",
+    "pretium",
+    "semper"
+  ],
+  "publicKey": {
+    "algorithm": "pretium",
+    "modulus": 43,
+    "params": 16,
+    "publicKey": "Pellentesque"
+  },
+  "serialNumber": 4,
+  "serialNumberObject": {
+    "serialNumber": 26
+  },
+  "sigAlgName": "molestie",
+  "sigAlgOID": "Fusce",
+  "subjectAlternativeNames": [
+    {
+      "name": "Alden",
+      "type": 73
+    }
+  ],
+  "subjectDN": {
+    "commonName": "venenatis",
+    "name": "Chris"
+  },
+  "subjectX500Principal": {
+    "name": "Bryon"
+  },
+  "type": "amet",
+  "version": 7
+}
